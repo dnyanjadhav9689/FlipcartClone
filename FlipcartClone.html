@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="./FlipcartClone.css">
+  
+</head>
+<body style="background-color: rgb(237, 237, 237);">
+    <header>
+        <div class="nav-container">
+            <div class="logo">
+                <img src="https://static-assets-web.flixcart.com/batman-returns/batman-returns/p/images/fkheaderlogo_exploreplus-44005d.svg" width="160" height="40" title="Flipkart" >
+            </div>
+            <div class="search">
+                <div class="search-icon">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-search" viewBox="0 0 16 16">
+                        <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001q.044.06.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1 1 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0"/>
+                      </svg>
+                </div>
+                <div class="search-container">
+                    <input class="search-box" type="text" placeholder="Search for Products, Brands, and more">
+                </div>
+            </div>
+
+            <div class="login-info">
+                <div class="login-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-person-circle" viewBox="0 0 16 16">
+                        <path d="M11 6a3 3 0 1 1-6 0 3 3 0 0 1 6 0"/>
+                        <path fill-rule="evenodd" d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8m8-7a7 7 0 0 0-5.468 11.37C3.242 11.226 4.805 10 8 10s4.757 1.225 5.468 2.37A7 7 0 0 0 8 1"/>
+                    </svg>
+                </div>
+
+                <div class="login">
+                <button>Login</button>
+                </div>
+
+                <div class="login-down">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-chevron-down" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708"/>
+                      </svg>
+                </div>
+            </div>
+
+
+            <div class="cart-info">
+                <div class="cart-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                        <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
+                    </svg>
+                </div>
+                <div class="cart">
+                    Cart
+                </div>
+            </div>
+
+            <div class="Seller-info">
+                <div class="Seller-logo">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-shop-window" viewBox="0 0 16 16">
+                        <path d="M2.97 1.35A1 1 0 0 1 3.73 1h8.54a1 1 0 0 1 .76.35l2.609 3.044A1.5 1.5 0 0 1 16 5.37v.255a2.375 2.375 0 0 1-4.25 1.458A2.37 2.37 0 0 1 9.875 8 2.37 2.37 0 0 1 8 7.083 2.37 2.37 0 0 1 6.125 8a2.37 2.37 0 0 1-1.875-.917A2.375 2.375 0 0 1 0 5.625V5.37a1.5 1.5 0 0 1 .361-.976zm1.78 4.275a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0 1.375 1.375 0 1 0 2.75 0V5.37a.5.5 0 0 0-.12-.325L12.27 2H3.73L1.12 5.045A.5.5 0 0 0 1 5.37v.255a1.375 1.375 0 0 0 2.75 0 .5.5 0 0 1 1 0M1.5 8.5A.5.5 0 0 1 2 9v6h12V9a.5.5 0 0 1 1 0v6h.5a.5.5 0 0 1 0 1H.5a.5.5 0 0 1 0-1H1V9a.5.5 0 0 1 .5-.5m2 .5a.5.5 0 0 1 .5.5V13h8V9.5a.5.5 0 0 1 1 0V13a1 1 0 0 1-1 1H4a1 1 0 0 1-1-1V9.5a.5.5 0 0 1 .5-.5"/>
+                    </svg>
+                </div>
+                <div class="become-seller">
+                    Become a Seller
+                </div>
+            </div>
+
+            <div class="three-dots">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-three-dots-vertical" viewBox="0 0 16 16">
+                    <path d="M9.5 13a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m0-5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0"/>
+                  </svg>
+            </div>
+        </div>
+    </header>
+   
+
+    
+    <div class="container">
+        
+        <div class="cards"><a ><img src="grocery.jpg" alt="img"><p>Grocery</p></a></div>
+        <div class="cards">    <a ><img src="mobile.jpg" alt="img"><p>Mobiles</p></a></div>
+        <div class="cards">    <a ><img src="fashion.jpg.png" alt="img"><p>Fashions</p></a></div>
+        <div class="cards">    <a ><img src="elctronics.png" alt="img"><p>Electronics</p></a></div>
+        <div class="cards">   <a ><img src="home&furniture.jpg" alt="img"><p>Home&Furniture</p></a></div>
+        <div class="cards">    <a ><img src="appliances.jpg" alt="img"><p>Appliances</p></a></div>
+        <div class="cards">    <a ><img src="travel.jpg" alt="img"><p>Travel</p></a></div>
+        <div class="cards">   <a ><img src="beauty,toys.png" alt="img"><p>Beauty, Toys&more</p></a></div>
+        <div class="cards">   <a ><img src="two wheeler.png" alt="img"><p>Two Wheelers</p></a></div>
+        
+    </div>
+
+   <img class="img" src="main1.jpg" alt="img">
+
+    
+            <div class="electronics-head">
+            <p><h3 class="text">Best of Electronics</h3></p>
+            </div>
+
+           <div class="electronics-img">
+                <div class="r1">
+                    <img src="true wireless.jpeg" alt="img">
+                    <p>True wireless airbirds</p>
+                    <p><h4>From 999</h4></p>
+                </div>
+                <div class="r1">
+                    <img src="mobile speaker.jpeg" alt="img">
+                    <p>Best mobile speakers</p>
+                    <p><h4>From 999</h4></p>
+                </div>
+
+                <div class="r1">
+                    <img src="monitor.jpeg" alt="img">
+                    <p>Monitor</p>
+                    <p><h4>From 7999*</h4></p>
+                </div>
+
+                <div class="r1">
+                    <img src="cameras.jpeg" alt="img">
+                    <p>Top Mirrorsless cameras</p>
+                    <p><h4>Shop now!</h4></p>
+                </div>
+
+                <div class="r1">
+                    <img src="printers.jpeg" alt="img">
+                    <p>Printers</p>
+                    <p><h4>From 10190</h4></p>
+                </div>
+
+                <div class="r1">
+                    <img src="noise smartwatch.jpg" alt="img">
+                    <p>Noise Smartwatch</p>
+                    <p><h4>From 2499</h4></p>
+                </div>
+            </div>
+        <!-- </div>
+
+        <img src="flipkart flights.jpg" alt="img">
+
+    </div>
+-->
+
+
+
+   <!--
+    <div class="cont">
+        <p><h3>Toys and More</h3></p>
+        <div class="card">
+            <img src="geared cycle.jpeg" alt="img">
+            <p>Non-Geared Cycles</p>
+            <p><h4>Upto 50% off</h4></p>
+        </div>
+
+        <div class="card">
+            <img src="cycle.jpeg" alt="img">
+            <p>Geared Cycle</p>
+            <p><h4>Upto 40% off</h4></p>
+        </div>
+
+        <div class="card">
+            <img src="electric cycle.jpeg" alt="img">
+            <p>Electric Cycle</p>
+            <p><h4>Upto 25% off</h4></p>
+        </div>
+
+        <div class="card">
+            <img src="gym esse.jpeg" alt="img">
+            <p>Gym Essentials</p>
+            <p><h4>From 139*</h4></p>
+        </div>
+
+        <div class="card">
+            <img src="microphones.jpeg" alt="img">
+            <p>microphones</p>
+            <p><h4>Starting just 999*</h4></p>
+        </div>
+
+        <div class="card">
+            <img src="top selling.jpeg" alt="img">
+            <p>Top selling Stationary</p>
+            <p><h4>From 49</h4></p>
+        </div>
+
+        <div class="card">
+            <img src="best action.jpeg" alt="img">
+            <p>Best Action Toys</p>
+            <p><h4>Upto 70% off</h4></p>
+        </div>
+
+    </div>-->
+</body>
+</html>

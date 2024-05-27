@@ -1,0 +1,306 @@
+*{
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header .nav-container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 2px;
+    background-color: white;
+
+    
+}
+
+.logo{
+    display: flex;
+    height: 100%;
+    width: 625px;
+    align-items: center;
+    margin:0 25px 0 25px;
+    
+    
+
+}
+.logo img{
+    display: flex;
+    height: 40px;;
+    width: 160px;
+    
+}
+
+.search{
+    display: flex;
+}
+
+.search-icon{
+    display: flex;
+    background-color: rgb(238, 245, 252);
+    height: 40px;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    margin: 11px 0 11px 11px;
+    width: 45px ;
+}
+
+.search-icon svg{
+    margin: 10px 0 0 12px;
+    color: rgba(0, 0, 0, 0.4);
+    height: 20px;
+    width: 20px;
+}
+
+.search-container{
+    display: flex;
+    align-items: center;
+    margin: 11px 11px 11px 0 ;
+    height: 40px;
+    width: 600px;
+    background-color: rgb(238, 245, 252);
+    border: none;
+    outline: none;
+    border-radius: 0 7px 7px 0;
+}
+
+.search-container input{
+    display: flex;
+    margin: 0;
+    width: 100%;
+    height: 25px;
+    outline: none;
+    border: none;
+    background-color: rgb(238, 245, 252);
+    margin: 3px 0 3px 0; 
+    font-size: 16px;
+
+
+}
+
+.login-info{
+    display: flex;
+    height: 40px;
+    width: 50%;
+    border-radius:  7px 7px 7px 7px ;
+    margin: 0 15px 0 15px;
+}
+
+
+.login-logo{
+    display: flex;
+    margin:10px 0 10px 10px;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    font-size: 25px;
+}
+
+.login-logo svg{
+    height: 20px;
+    width: 20px;
+}
+
+.login{
+    display: flex;
+    height: 40px;
+    width: 60px;
+  
+   
+    background: none;  
+    border-radius: 0 7px 7px 0;
+
+}
+
+.login button{
+    display: flex;
+    height: 40px;
+    width: 100%;
+   
+    outline: none;
+    border: none;
+    background: none;
+
+    font-size: 16px;
+    font-weight: 550;
+    margin: 10px 0 0 10px;
+
+}
+
+.login-down{
+    display: flex;
+    margin:10px 10px 10px 0;
+    align-items: center;
+    height: 18px;
+    width: 18px;
+    font-size: 20px; 
+}
+
+.login-info:hover{
+    background-color: rgb(18, 110, 247);
+    cursor: pointer;
+}
+
+.cart-info{
+    display: flex;
+    height: 40px;
+    width: 50%;
+
+    margin: 0 15px 0 20px;
+}
+
+.cart-logo{
+    display: flex;
+    margin:10px 0 10px 10px;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.cart-logo svg{
+    height: 20px;
+    width: 20px;
+}
+
+ 
+.cart{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.seller-info{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 0 15px 0 15px;
+
+}
+
+.seller-logo{
+    display: flex;
+    margin:10px 0 10px 10px;
+    height: 40px;
+    width: 40px;
+    
+}
+
+.seller-logo svg{
+    height: 20px;
+    width: 20px;
+}
+
+.become-seller{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    margin: 10px 0 0 10px;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.three-dots{
+    display: flex;
+    height: 40px;
+    width: 100%;
+    margin: 0 0 0 15px
+    ;
+}
+
+.three-dots svg{
+    height: 20px;
+    width: 20px;
+}
+
+.container{
+    margin: 10px 12px;
+    display: flex;
+    background-color: white;
+    height: 140px;
+    width: 72.5%;
+    padding: 0 200px;
+
+
+}
+
+.cards{
+    display: inline-block;
+    align-items: center;
+    height: 70px;
+    width: 70px;
+    padding: 11px;
+    margin: 10px 16px;
+    text-align: center;
+}
+
+.electronics{
+    display: flex;
+    margin: 5px;
+    width: 100%;
+    height: 200px;
+    background-color: white;
+
+}
+
+.electronics-info{
+    display: block;
+    height: 250px;
+    width: 70%;
+    margin: 10px 0;
+}
+
+.electronics-head{
+    display: flex;
+    width: 75%;
+    height: 40px;
+    margin: 10px 10px 0 10px;
+    background-color: white;
+    padding: 10px 0 0 0;
+    align-content: flex-start;
+}
+
+
+
+.electronics-img{
+    display: flex;
+    height: 270px;
+    width: 75%;
+    margin: 0 0 10px 10px;
+    background-color: white;
+    padding: 5px 0;
+}
+
+.r1{
+    display: inline-block;
+    height: 250px;
+    width: 100%;
+    border: 2px solid rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    margin: 10px;
+
+}
+
+.r1 img{
+    display: inline-block;
+    height: 200px;
+    width: 150px;
+    margin: 10px;
+   
+    padding: 10px;
+
+}
+
+.r1 p{
+    display: inline-block;
+    text-align: center;
+}
+
+.head{
+    display: inline-block;
+    text-align: center;
+}
